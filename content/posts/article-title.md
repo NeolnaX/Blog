@@ -5,7 +5,6 @@ lastmod: 2025-11-30T10:00:42+08:00
 author: NeolnaX
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-cover: /img/cover.jpg
 # covercaption: a description of the cover image
 # images:
 #   - /img/cover.jpg
