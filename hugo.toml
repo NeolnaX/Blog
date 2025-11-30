@@ -1,4 +1,4 @@
-baseurl = "https://blog.neolnax.top/"
+baseurl = "https://neolnax.github.io/Blog/"
 defaultContentLanguage = "zh"
 languageCode = "zh-Hans"
 title = "NeolnaX's Blog"
