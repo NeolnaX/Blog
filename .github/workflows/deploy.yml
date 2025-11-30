@@ -1,0 +1,35 @@
+name: Deploy Hugo to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # 当推送到 main 分支时触发
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest # 使用最新的 Ubuntu 运行器
+
+    steps:
+      - name: Checkout # 检出仓库代码
+        uses: actions/checkout@v4
+        with:
+          submodules: true # 如果你的 Hugo 主题是作为 Git 子模块添加的，需要这一行
+          fetch-depth: 0 # 获取所有历史，这对于一些 Hugo 插件可能很重要
+
+      - name: Setup Hugo # 设置 Hugo 环境
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest' # 使用最新版本的 Hugo
+          # extended: true # 如果你的主题需要 Hugo Extended 版本，请取消注释这一行
+
+      - name: Build Hugo Site # 构建 Hugo 静态网站
+        run: hugo --minify # --minify 可以压缩 HTML、CSS、JS 文件
+
+      - name: Deploy to GitHub Pages # 部署到 GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4 # 使用这个 Action 来部署
+        if: github.ref == 'refs/heads/main' # 只有在 main 分支上才部署
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }} # GitHub 提供的自动 Token
+          publish_dir: ./public # Hugo 生成的静态文件目录
+          publish_branch: gh-pages # 部署到 gh-pages 分支
+          # cname: example.com # 如果你希望 CNAME 文件由 Action 管理，可以在这里设置你的域名，它会自动创建
