@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NeolnaX&#39;s Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on NeolnaX&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Sun, 30 Nov 2025 10:00:42 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to my blog!</title>
+      <link>http://localhost:1313/posts/article-title/</link>
+      <pubDate>Sun, 30 Nov 2025 10:00:42 +0800</pubDate>
+      <guid>http://localhost:1313/posts/article-title/</guid>
+      <description>&lt;h3 id=&#34;欢迎来到我的博客&#34;&gt;欢迎来到我的博客！&lt;/h3&gt;&#xA;&lt;p&gt;大家好！&lt;/p&gt;&#xA;&lt;p&gt;非常激动能在这里和大家见面，欢迎来到我的Blog，标志着我个人分享之旅的正式开启。一直以来，我都希望能有一个空间来记录我的所思所想，分享我的生活点滴、兴趣爱好，以及那些我觉得有价值的信息。今天，这个愿望终于实现了！&lt;/p&gt;&#xA;&lt;h4 id=&#34;为什么开始写博客&#34;&gt;为什么开始写博客？&lt;/h4&gt;&#xA;&lt;p&gt;我开始写博客的原因很简单：我热爱生活，享受探索新事物，也喜欢与人交流。我相信每个人都有独特的故事和经验值得分享，而我的博客就是我尝试去做的这一切。我希望这里能成为一个轻松愉快的角落，让我们一起学习、一起成长，甚至只是享受片刻的宁静。&lt;/p&gt;&#xA;&lt;h4 id=&#34;你会在这里看到什么&#34;&gt;你会在这里看到什么？&lt;/h4&gt;&#xA;&lt;p&gt;未来，我计划在这里分享各种各样的内容，可能包括：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;生活感悟：&lt;/strong&gt; 记录日常中的小确幸，分享我对生活的理解和感悟。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;个人兴趣：&lt;/strong&gt; 无论是读书心得、旅行经历、美食探索，还是对某个新爱好（比如摄影、编程、园艺）的尝试，我都会在这里分享我的体验和学习过程。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;实用技巧：&lt;/strong&gt; 如果我在某个领域积累了一些实用的小技巧或经验，也一定会毫无保留地分享给大家。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;以及更多…&lt;/strong&gt; 我也期待在未来的互动中，能和大家一起发掘更多有趣的主题。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;期待与你同行&#34;&gt;期待与你同行&lt;/h4&gt;&#xA;&lt;p&gt;我知道这是一个新的开始，前方可能会充满挑战，但我更相信它会带来无限的乐趣和收获。我非常期待能在这里与大家建立连接，倾听你们的声音，共同创造一个充满活力和启发性的社区。&lt;/p&gt;&#xA;&lt;p&gt;感谢你的阅读！如果你有任何想法或建议，欢迎随时留言，我很乐意与你交流。&lt;/p&gt;&#xA;&lt;p&gt;我们下篇文章再见！&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
