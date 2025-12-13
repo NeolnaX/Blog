@@ -28,7 +28,6 @@ layout: page
 如果恰好共鸣，那真是意外之喜。
 
 —— NeolnaX  
-[Neolnax](https://github.com/Neolnax).
 
 ::github{repo="Neolnax/NeolnaX"}
 
