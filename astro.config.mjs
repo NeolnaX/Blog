@@ -29,6 +29,12 @@ export default defineConfig({
 	site: "https://blog.neolnax.top",
 	base: "/",
 	trailingSlash: "always",
+
+	// CSS 内联优化：自动内联小于 4KB 的 CSS 文件
+	build: {
+		inlineStylesheets: 'auto',
+	},
+
 	integrations: [
 		tailwind({
 			nesting: true,
