@@ -6,7 +6,18 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Roboto", "sans-serif", ...defaultTheme.fontFamily.sans],
+        sans: [
+          "Roboto",
+          // 中文字体 - 优先使用本地系统字体
+          "PingFang SC",
+          "Microsoft YaHei",
+          "Noto Sans SC",
+          // 系统字体回退
+          "system-ui",
+          "-apple-system",
+          "sans-serif",
+          ...defaultTheme.fontFamily.sans
+        ],
       },
     },
   },

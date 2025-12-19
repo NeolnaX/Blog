@@ -31,9 +31,17 @@ export default defineConfig({
 	base: "/",
 	trailingSlash: "always",
 
-	// CSS 内联优化：自动内联小于 4KB 的 CSS 文件
+	// 构建优化配置
 	build: {
-		inlineStylesheets: 'auto',
+		inlineStylesheets: 'auto', // 自动内联小于 4KB 的 CSS 文件
+		assets: '_astro', // 静态资源目录（带哈希）
+	},
+
+	// 图片优化配置
+	image: {
+		service: {
+			entrypoint: 'astro/assets/services/sharp'
+		}
 	},
 
 	integrations: [

@@ -357,3 +357,7 @@ nft add rule inet mangle postrouting ip6 hoplimit set 64
 ::github{repo="SunBK201/UA3F"}
 
 ::github{repo="Zesuy/UA-Mask"}
+
+---
+
+> 本文由 [Claude Code](https://claude.com/claude-code) 辅助完成
